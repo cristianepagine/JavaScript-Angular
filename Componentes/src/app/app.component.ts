@@ -1,4 +1,4 @@
-import { Component, VERSION } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -6,7 +6,7 @@ import { Component, VERSION } from '@angular/core';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  name = 'Angular ' + VERSION.major;
+  title = 'Componentes';
   buttonLabel: string = 'CARRINHO';
-  buttonSecond: string = 'ADICIONAR A FAVORITOS';
+  buttonLabel2: string = 'FAVORITOS';
 }

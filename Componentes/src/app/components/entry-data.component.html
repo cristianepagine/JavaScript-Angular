@@ -1,0 +1,16 @@
+<!--associando a proriedade do TS para o HTML
+e fazendo a conversa do html para o TS
+com o event target(JS) enviando para o <p> -->
+<input
+type="text"
+[value]="placeholder"
+(input)="placeholder =$any($event.target).value"
+/>
+<p>{{placeholder}}</p>
+
+<!--Agora usando as diretivas do angular-->
+<input
+type="text"
+[(ngModel)]="placepass"
+/>
+<p>{{placepass}}</p>
