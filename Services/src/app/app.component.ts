@@ -5,9 +5,10 @@ import { Component } from '@angular/core';
   template: `
   <h1>Aula de Services</h1>
   <app-card></app-card>
-  <router-outlet></router-outlet>`,
-  styleUrls: ['./app.component.css'],
+  <router-outlet></router-outlet>
+  `,
+  styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Services';
+  title = 'C10';
 }
